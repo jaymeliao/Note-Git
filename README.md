@@ -3,7 +3,7 @@
 
 
 建立新的分支     
-`git branch **<new_branch_name>**`
+`git branch <new_branch_name>`
 
 切換分支    
 `git switch <branch_name>` 或
