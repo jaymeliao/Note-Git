@@ -21,9 +21,9 @@
 `git branch -d <branch_name>`
 
 
-Unstage
+Unstage     
 `git reset <path>`
 
-Remove whole thing and even the chached
+Remove whole thing and even the chached.       
 `git rm --cached -r . `
 
