@@ -27,3 +27,4 @@ Unstage
 Remove whole thing and even the chached.       
 `git rm --cached -r . `
 
+https://blog.csdn.net/shulianghan/article/details/18812279
