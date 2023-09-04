@@ -32,3 +32,6 @@ https://blog.csdn.net/shulianghan/article/details/18812279
 
 添加遠程的某個分支   
 `git branch  <branch_name_your_wanted_for local>  origin/<the_branch_from_remote> //origin 為遠程倉庫的匿名, 當然你也可以自訂義`
+
+轉換帳戶:
+For Mac: Go to KeyAccess >> Search for github >> delete all key access relate to github >> make a push using terminal command
