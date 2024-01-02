@@ -56,3 +56,7 @@ or
 
 轉換帳戶:
 For Mac: Go to KeyAccess >> Search for github >> delete all key access relate to github >> make a push using terminal command
+
+
+開啟可視化工具   
+`gitk --all`
