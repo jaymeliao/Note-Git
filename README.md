@@ -60,3 +60,12 @@ For Mac: Go to KeyAccess >> Search for github >> delete all key access relate to
 
 開啟可視化工具   
 `gitk --all`
+
+
+You've deleted a remote feature branch on GitHub and it still appears when you run git branch -a locally, it may be due to the fact that Git keeps a local copy of remote branches as "remote-tracking branches." These remote-tracking branches are used to keep track of the state of branches on the remote repository.
+
+To clean up these remote-tracking branches locally, you can use the following command:
+
+`git fetch --prune`
+
+The --prune option removes any remote-tracking branches that no longer exist on the remote. This should update your local repository with the current state of the remote branches.
