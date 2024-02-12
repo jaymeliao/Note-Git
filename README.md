@@ -54,6 +54,10 @@ or
 添加遠程的某個分支   
 `git branch  <branch_name_your_wanted_for local>  origin/<the_branch_from_remote> //origin 為遠程倉庫的匿名, 當然你也可以自訂義`
 
+連結本地分支和遠程分支
+`git branch -u origin/develop develop` or `git branch --set-upstream-to=origin/develop develop`
+
+
 轉換帳戶:
 For Mac: Go to KeyAccess >> Search for github >> delete all key access relate to github >> make a push using terminal command
 
@@ -69,3 +73,10 @@ To clean up these remote-tracking branches locally, you can use the following co
 `git fetch --prune`
 
 The --prune option removes any remote-tracking branches that no longer exist on the remote. This should update your local repository with the current state of the remote branches.
+
+
+
+
+Once all changes are reviewed and approved, you can choose to merge the pull request to integrate the changes into the target branch or close the pull request if the changes are no longer needed or if there are issues that need to be addressed.
+
+
