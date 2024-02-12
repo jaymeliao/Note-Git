@@ -54,8 +54,10 @@ or
 添加遠程的某個分支   
 `git branch  <branch_name_your_wanted_for local>  origin/<the_branch_from_remote> //origin 為遠程倉庫的匿名, 當然你也可以自訂義`
 
-連結本地分支和遠程分支
-`git branch -u origin/develop develop` or `git branch --set-upstream-to=origin/develop develop`
+### 連結本地分支和遠程分支
+    - `git branch -u origin/develop develop`
+    or 
+    - `git branch --set-upstream-to=origin/develop develop`
 
 
 轉換帳戶:
